@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #38bdf8;
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: 8px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 25px;
+      background: #1e293b;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      animation: slideUp 1s ease;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #38bdf8;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    .projects div {
+      margin-bottom: 10px;
+      padding: 10px;
+      background: #334155;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .projects div:hover {
+      background: #475569;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/ncXwmvmF/Bhuiyan-photo.jpg="Profile Photo">
+  <h1>Bhuiyan Humayun</h1>
+  <p>Web Developer | Learner | Freelancer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am passionate about building modern and responsive websites.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML & CSS</li>
+    <li>JavaScript (Basic)</li>
+    <li>Responsive Design</li>
+  </ul>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div>Project 1 - Coming Soon</div>
+  <div>Project 2 - Coming Soon</div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: alonhumayun@gmail.com</p>
+  <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61565650508907"Facebook Profile</a>
+</section>
+
+<footer>
+  <p>© 2026 Bhuiyan Humayun</p>
+</footer>
+
+</body>
+</html>
